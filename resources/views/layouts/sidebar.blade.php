@@ -7,7 +7,7 @@
 
               <a href="{{ route('positions.index') }}" class="flex items-center gap-2 rounded-sm px-4 py-2 hover:cursor-pointer hover:bg-gray-100">
                   <i class="fa-regular fa-user" style="color: #8c8c8c;"></i>
-                  <span class="text-sm">Areas</span>
+                  <span class="text-sm">Cargo</span>
               </a>
 
               <a href="{{ route('employees.index') }}" class="flex items-center gap-2 rounded-sm px-4 py-2 hover:cursor-pointer hover:bg-gray-100">
