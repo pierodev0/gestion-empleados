@@ -10,7 +10,7 @@ class Position extends Model
     use HasFactory;
     protected $guarded = [];
 
-    //Relacion uno a muchos
+    //Relacion uno a muchos de Cargo con empleado
     public function employees(){
         return $this->hasMany(Employee::class);
     }
